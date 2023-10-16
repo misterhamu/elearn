@@ -26,6 +26,7 @@ export interface Video {
   title: string;
   description: string;
   link: string;
+  videoUrl: string;
   instructor: string;
   sheets: Sheet[];
   createAt: number;
